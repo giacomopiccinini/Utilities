@@ -14,4 +14,15 @@ Create a virtual python virtual environment of a specified version and name. Fir
 
 This will create and activate a virtual environment of name <VENV-NAME> with python version X.Y.
 
+## git_hub
 
+Download GitHub CLI and authenticate so that you do not have to insert your credentials everytime. 
+
+`./git_hub`
+
+Then follow the instructions:
+1. Authenticate via GitHub.com
+2. Choose HTTPS
+3. Press Y
+4. Authenticate via browser
+5. Insert your password (not token!=
