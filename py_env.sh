@@ -16,4 +16,4 @@ $("$version" -m venv "$environment")
 
 source "$environment"/bin/activate
 
-
+pip install --upgrade pip
