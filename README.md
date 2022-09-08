@@ -12,7 +12,7 @@ Create a virtual python virtual environment of a specified version and name. Fir
 
 `source py_env python<X.Y> <VENV_NAME>`
 
-This will create and activate a virtual environment of name <VENV-NAME> with python version X.Y.
+This will create and activate a virtual environment of name `<VENV-NAME>` with python version X.Y.
 
 ## git_hub
 
@@ -25,4 +25,11 @@ Then follow the instructions:
 2. Choose HTTPS
 3. Press Y
 4. Authenticate via browser
-5. Insert your password (not token!=
+6. Copy the 8 alphanumeric code
+7. Paste it in `https://github.com/login/device/`
+
+## requirements
+
+Create a `requirements.txt` file in the directory where it is launched from
+
+`requirements`
