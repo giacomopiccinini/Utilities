@@ -2,7 +2,8 @@
 
 ip=$1
 
-start chrome http://$ip:8888
+#start chrome http://$ip:8888
+start brave http://$ip:8888
 
 ssh -i Keys/alpha-ireland.pem -o StrictHostKeyChecking=no ubuntu@$ip 
 
