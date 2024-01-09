@@ -1,0 +1,14 @@
+*.ipynb
+*.jpg
+*.png
+*.mp4
+*.hdf5
+*.pt
+*.pth
+.ipynb_checkpoints
+__pycache__
+venv
+.env
+.pytest_cache
+*.mp3
+*.wav

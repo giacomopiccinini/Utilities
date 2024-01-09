@@ -1,0 +1,6 @@
+black
+pipreqs
+numpy
+pre-commit
+tqdm
+python-decouple

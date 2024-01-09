@@ -28,13 +28,6 @@ environment=$(basename "$PWD")
 # Install the current environment so that it can be used as a Kernel
 python -m ipykernel install --user --name="$environment"
 
-# Basic libraries we will use
-echo "black" >> requirements.txt
-echo "pipreqs" >> requirements.txt
-echo "numpy" >> requirements.txt
-echo "tqdm" >> requirements.txt
-echo "python-decouple" >> requirements.txt
-
 # Install requirements
 pip install -r requirements.txt
 
